@@ -1,0 +1,14 @@
+PODS:
+  - HYLogEngine (0.1.0)
+
+DEPENDENCIES:
+  - HYLogEngine (from `../`)
+
+EXTERNAL SOURCES:
+  HYLogEngine:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYLogEngine: fa54710e96bd0fb5861fd8e481522eb70227dad0
+
+COCOAPODS: 0.38.2

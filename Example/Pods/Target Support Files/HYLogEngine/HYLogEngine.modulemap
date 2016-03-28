@@ -1,0 +1,6 @@
+framework module HYLogEngine {
+  umbrella header "HYLogEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

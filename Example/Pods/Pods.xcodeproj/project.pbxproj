@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1241B495B084B5B9FDD37B325277008F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDEA5EF7EB5BDBF0DFD6045DB80CC39 /* Foundation.framework */; };
+		179225A081531D784D7BBA8653138F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDEA5EF7EB5BDBF0DFD6045DB80CC39 /* Foundation.framework */; };
+		337D4A4E69682EC213F3316107CEC8B3 /* HYLogEngine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFB454E5AEA1A6055138A40816402351 /* HYLogEngine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B23E12A528D8EFBA642F67442787244 /* HYLogEventTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53E4695F10D974788DC5B50276F459 /* HYLogEventTracker.m */; };
+		3C69376BEA6E26A6EF7BEB391E86F928 /* HYQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0738E0829185FB778675D87EE94C8A /* HYQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D16A9F97CB53E4491C16F6AE25D8D3A /* HYLogEventTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB0119D8AFF327C9E498BE6929B99EF /* HYLogEventTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46241279A132636929AFE5C18A7EB4A5 /* HYLogEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0261477B12ECE9D80ADAB603B8C6F985 /* HYLogEngine.m */; };
+		47B082AE085A306900F06649CE300BE6 /* HYLogEngine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5CDB549664B6482C504CF020D2071C /* HYLogEngine-dummy.m */; };
+		4D8F845468E4B27C0E239A7528F8A2B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDEA5EF7EB5BDBF0DFD6045DB80CC39 /* Foundation.framework */; };
+		500C5EDCB6704AE9E4534DC09D58E4E5 /* HYLogBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A77B6F2449AD9252A4A1D892D7F6004 /* HYLogBaseModel.m */; };
+		5345B976618E30DB1FDD3F079E3B2436 /* HYLogPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAD4BD728F2F5E7CDF17B41020A3049 /* HYLogPool.m */; };
+		58B4F8E5CE2A160DC74650F5B82B4B43 /* Pods-HYLogEngine_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AF48B9C6D55EC3B365389CF5154C69 /* Pods-HYLogEngine_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7710F329F29D980034865341CF214390 /* Pods-HYLogEngine_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E37CCC7A15B3E86A79396875713EB3 /* Pods-HYLogEngine_Tests-dummy.m */; };
+		880A6753E65CDCB684A36428BACB39C3 /* HYLogProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B66EE9A0CA45B212AAA257ED928A649 /* HYLogProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F33B810AA1F8A080777428A3A32852 /* HYLogEngineHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7B06305CA144E8FCCBED842F9B5CC5 /* HYLogEngineHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9390D7A7318FDCB81C11FCBD75F9095B /* HYLogConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 949E4BC8672F33EFC3082B09661EC91A /* HYLogConfiger.m */; };
+		A442B32EF2AA23F94E0CF222C210C974 /* HYLogConfiger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5044DCFD1C868D911DA637BDE3C11D60 /* HYLogConfiger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A978CF97008E668B712983DB48D33EFB /* Pods-HYLogEngine_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 912C3988C06080F5ECEF4FBAE1D8A9A4 /* Pods-HYLogEngine_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17B079C0FF6C26E8238DE7B88E11375 /* HYLogEngine.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80E75BFF42DD43F665B342FE59833636 /* HYLogEngine.bundle */; };
+		B9BE53E3C4A2105833D27E49908B18EF /* HYQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F346510DB5AB6D00E8DD750AF34246 /* HYQueue.m */; };
+		BD1007D8B584F053809879B9C4368D7F /* Pods-HYLogEngine_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D78E343077967958BE39BFBB05160E82 /* Pods-HYLogEngine_Example-dummy.m */; };
+		BECE31C7AAF6BDD5B47AAC40355C15C3 /* HYLogPool.h in Headers */ = {isa = PBXBuildFile; fileRef = E83231D75A8A019E78FD746A175D612E /* HYLogPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC003A824A79C1CDE0DFE8164F439AA4 /* HYLogEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 308CF836E68A5FC4CEDABDB5DA4942CA /* HYLogEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D53ADAF2E208DAB13A98ED7E28484363 /* HYLogBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FF4F9C4D9C67009274A369978A32EF /* HYLogBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53DCCCF55F802B22D412EA09C9C9374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A0FECE8D69A8C37FAED08856B9544F;
+			remoteInfo = HYLogEngine;
+		};
+		D8838FDF61AD82EEB6CA9E0AAA9E90B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEEC16DBF9863201D10D9A40202B2CA;
+			remoteInfo = "HYLogEngine-HYLogEngine";
+		};
+		EB59F068491C1C17755360412FDAF7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A0FECE8D69A8C37FAED08856B9544F;
+			remoteInfo = HYLogEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0261477B12ECE9D80ADAB603B8C6F985 /* HYLogEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYLogEngine.m; sourceTree = "<group>"; };
+		02DB0C6664E28276ED916651C2004078 /* Pods-HYLogEngine_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLogEngine_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		042077B7D1C89B0AEDA4DFD1A9A34240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2CC104A1ABF8D6DB66A1838C327B2B /* Pods-HYLogEngine_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLogEngine_Tests-resources.sh"; sourceTree = "<group>"; };
+		0E5CDB549664B6482C504CF020D2071C /* HYLogEngine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYLogEngine-dummy.m"; sourceTree = "<group>"; };
+		0F7B06305CA144E8FCCBED842F9B5CC5 /* HYLogEngineHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogEngineHeader.h; sourceTree = "<group>"; };
+		12E37CCC7A15B3E86A79396875713EB3 /* Pods-HYLogEngine_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYLogEngine_Tests-dummy.m"; sourceTree = "<group>"; };
+		1A53E4695F10D974788DC5B50276F459 /* HYLogEventTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYLogEventTracker.m; sourceTree = "<group>"; };
+		1FAD4BD728F2F5E7CDF17B41020A3049 /* HYLogPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYLogPool.m; sourceTree = "<group>"; };
+		21F704E1CFC4D176E913C912ED1AAB27 /* Pods-HYLogEngine_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYLogEngine_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		308CF836E68A5FC4CEDABDB5DA4942CA /* HYLogEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogEngine.h; sourceTree = "<group>"; };
+		3872E4134713B5D81819BB45B8612D31 /* HYLogEngine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HYLogEngine.modulemap; sourceTree = "<group>"; };
+		38945036D453E7C8214EA0DE055958FC /* Pods-HYLogEngine_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYLogEngine_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39D9A7A0F86D8D84F3626CFA33DBFE61 /* Pods-HYLogEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLogEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		39F346510DB5AB6D00E8DD750AF34246 /* HYQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYQueue.m; sourceTree = "<group>"; };
+		40193104E075B99827B3600B62D3F031 /* Pods-HYLogEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLogEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4020C828697CD3DAC868AFC74B1BB388 /* Pods-HYLogEngine_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYLogEngine_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4312483D7175E8D0366B26AE090244ED /* Pods-HYLogEngine_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLogEngine_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		43DCB110036FC7503EE4FAB9BDFD72E8 /* Pods-HYLogEngine_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLogEngine_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A9520AD624AF5E6F80FAA531727E045 /* HYLogEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYLogEngine.xcconfig; sourceTree = "<group>"; };
+		5044DCFD1C868D911DA637BDE3C11D60 /* HYLogConfiger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogConfiger.h; sourceTree = "<group>"; };
+		5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HYLogEngine-Private.xcconfig"; sourceTree = "<group>"; };
+		524D91594DE094D0B3FBCEAF0E51CE8A /* Pods-HYLogEngine_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYLogEngine_Example-resources.sh"; sourceTree = "<group>"; };
+		5EE93F3691CC608B43F9A89852AE1561 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6445FC9B041BF145AF4340E06A129BF2 /* Pods_HYLogEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLogEngine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB579DEA5F3151A0BF5C9233E3B2EE9 /* HYLogEngine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYLogEngine-prefix.pch"; sourceTree = "<group>"; };
+		76FF4F9C4D9C67009274A369978A32EF /* HYLogBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogBaseModel.h; sourceTree = "<group>"; };
+		7A77B6F2449AD9252A4A1D892D7F6004 /* HYLogBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYLogBaseModel.m; sourceTree = "<group>"; };
+		7B0738E0829185FB778675D87EE94C8A /* HYQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYQueue.h; sourceTree = "<group>"; };
+		80E75BFF42DD43F665B342FE59833636 /* HYLogEngine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLogEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AF48B9C6D55EC3B365389CF5154C69 /* Pods-HYLogEngine_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYLogEngine_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8AC1EC5D2E9048FE79B5C67FBF8EBE47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912C3988C06080F5ECEF4FBAE1D8A9A4 /* Pods-HYLogEngine_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYLogEngine_Example-umbrella.h"; sourceTree = "<group>"; };
+		949E4BC8672F33EFC3082B09661EC91A /* HYLogConfiger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYLogConfiger.m; sourceTree = "<group>"; };
+		958A094380FF4CF77B1AE913F4D23C2A /* HYLogEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYLogEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B66EE9A0CA45B212AAA257ED928A649 /* HYLogProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogProtocol.h; sourceTree = "<group>"; };
+		A1EA3E40A6552DC34907980425EFCD64 /* Pods_HYLogEngine_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYLogEngine_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A6F3EDC1F76C9A3445E4DDA3D122FF /* Pods-HYLogEngine_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYLogEngine_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACDEA5EF7EB5BDBF0DFD6045DB80CC39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF6D8038C1CCF338C07EBC7490E1514C /* Pods-HYLogEngine_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYLogEngine_Tests.modulemap"; sourceTree = "<group>"; };
+		CDB0119D8AFF327C9E498BE6929B99EF /* HYLogEventTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogEventTracker.h; sourceTree = "<group>"; };
+		D78E343077967958BE39BFBB05160E82 /* Pods-HYLogEngine_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYLogEngine_Example-dummy.m"; sourceTree = "<group>"; };
+		DFB454E5AEA1A6055138A40816402351 /* HYLogEngine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYLogEngine-umbrella.h"; sourceTree = "<group>"; };
+		E83231D75A8A019E78FD746A175D612E /* HYLogPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYLogPool.h; sourceTree = "<group>"; };
+		E99E8CCA553730CA457F8E35D738B7E2 /* Pods-HYLogEngine_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYLogEngine_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6708350F24E9431DCABFE1F5E566CF1 /* Pods-HYLogEngine_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HYLogEngine_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001CD878B3024E75B22F86A88958583D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B11F5F9E99A7CBAB1E3901DBE82A3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1241B495B084B5B9FDD37B325277008F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0FFA4EC3669A66DEAC1F4031E95F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D8F845468E4B27C0E239A7528F8A2B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37CF649D74C19D8E13158B7CF3D5A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179225A081531D784D7BBA8653138F0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FB3CADA586FDB453EFA71A25CDC1D29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A3E2BACCC52CBE40FB38DC41EDAE89 /* Pods-HYLogEngine_Example */,
+				756E2DBEE151EB17036DACC56C2E8492 /* Pods-HYLogEngine_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEA5EF7EB5BDBF0DFD6045DB80CC39 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		756E2DBEE151EB17036DACC56C2E8492 /* Pods-HYLogEngine_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE93F3691CC608B43F9A89852AE1561 /* Info.plist */,
+				BF6D8038C1CCF338C07EBC7490E1514C /* Pods-HYLogEngine_Tests.modulemap */,
+				38945036D453E7C8214EA0DE055958FC /* Pods-HYLogEngine_Tests-acknowledgements.markdown */,
+				21F704E1CFC4D176E913C912ED1AAB27 /* Pods-HYLogEngine_Tests-acknowledgements.plist */,
+				12E37CCC7A15B3E86A79396875713EB3 /* Pods-HYLogEngine_Tests-dummy.m */,
+				4312483D7175E8D0366B26AE090244ED /* Pods-HYLogEngine_Tests-frameworks.sh */,
+				0D2CC104A1ABF8D6DB66A1838C327B2B /* Pods-HYLogEngine_Tests-resources.sh */,
+				81AF48B9C6D55EC3B365389CF5154C69 /* Pods-HYLogEngine_Tests-umbrella.h */,
+				39D9A7A0F86D8D84F3626CFA33DBFE61 /* Pods-HYLogEngine_Tests.debug.xcconfig */,
+				40193104E075B99827B3600B62D3F031 /* Pods-HYLogEngine_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYLogEngine_Tests";
+			path = "Target Support Files/Pods-HYLogEngine_Tests";
+			sourceTree = "<group>";
+		};
+		759D37A95BEDEE0A8F3F5B216C7DE9CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBF3FE108509059BB7B6EA976D8921B0 /* HYLogEngine */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				759D37A95BEDEE0A8F3F5B216C7DE9CC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				1FB3CADA586FDB453EFA71A25CDC1D29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81131E1D27D918FAB8A3C0EF4FA2D78B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3872E4134713B5D81819BB45B8612D31 /* HYLogEngine.modulemap */,
+				4A9520AD624AF5E6F80FAA531727E045 /* HYLogEngine.xcconfig */,
+				5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */,
+				0E5CDB549664B6482C504CF020D2071C /* HYLogEngine-dummy.m */,
+				6AB579DEA5F3151A0BF5C9233E3B2EE9 /* HYLogEngine-prefix.pch */,
+				DFB454E5AEA1A6055138A40816402351 /* HYLogEngine-umbrella.h */,
+				8AC1EC5D2E9048FE79B5C67FBF8EBE47 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYLogEngine";
+			sourceTree = "<group>";
+		};
+		8B93A61662F8BFCDA290AEEB4D0BC046 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A33019632B1D659883673C67FDEC6FA4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		A33019632B1D659883673C67FDEC6FA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76FF4F9C4D9C67009274A369978A32EF /* HYLogBaseModel.h */,
+				7A77B6F2449AD9252A4A1D892D7F6004 /* HYLogBaseModel.m */,
+				5044DCFD1C868D911DA637BDE3C11D60 /* HYLogConfiger.h */,
+				949E4BC8672F33EFC3082B09661EC91A /* HYLogConfiger.m */,
+				308CF836E68A5FC4CEDABDB5DA4942CA /* HYLogEngine.h */,
+				0261477B12ECE9D80ADAB603B8C6F985 /* HYLogEngine.m */,
+				0F7B06305CA144E8FCCBED842F9B5CC5 /* HYLogEngineHeader.h */,
+				CDB0119D8AFF327C9E498BE6929B99EF /* HYLogEventTracker.h */,
+				1A53E4695F10D974788DC5B50276F459 /* HYLogEventTracker.m */,
+				E83231D75A8A019E78FD746A175D612E /* HYLogPool.h */,
+				1FAD4BD728F2F5E7CDF17B41020A3049 /* HYLogPool.m */,
+				9B66EE9A0CA45B212AAA257ED928A649 /* HYLogProtocol.h */,
+				7B0738E0829185FB778675D87EE94C8A /* HYQueue.h */,
+				39F346510DB5AB6D00E8DD750AF34246 /* HYQueue.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E75BFF42DD43F665B342FE59833636 /* HYLogEngine.bundle */,
+				958A094380FF4CF77B1AE913F4D23C2A /* HYLogEngine.framework */,
+				A1EA3E40A6552DC34907980425EFCD64 /* Pods_HYLogEngine_Example.framework */,
+				6445FC9B041BF145AF4340E06A129BF2 /* Pods_HYLogEngine_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF3FE108509059BB7B6EA976D8921B0 /* HYLogEngine */ = {
+			isa = PBXGroup;
+			children = (
+				8B93A61662F8BFCDA290AEEB4D0BC046 /* Pod */,
+				81131E1D27D918FAB8A3C0EF4FA2D78B /* Support Files */,
+			);
+			name = HYLogEngine;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F5A3E2BACCC52CBE40FB38DC41EDAE89 /* Pods-HYLogEngine_Example */ = {
+			isa = PBXGroup;
+			children = (
+				042077B7D1C89B0AEDA4DFD1A9A34240 /* Info.plist */,
+				F6708350F24E9431DCABFE1F5E566CF1 /* Pods-HYLogEngine_Example.modulemap */,
+				4020C828697CD3DAC868AFC74B1BB388 /* Pods-HYLogEngine_Example-acknowledgements.markdown */,
+				A2A6F3EDC1F76C9A3445E4DDA3D122FF /* Pods-HYLogEngine_Example-acknowledgements.plist */,
+				D78E343077967958BE39BFBB05160E82 /* Pods-HYLogEngine_Example-dummy.m */,
+				43DCB110036FC7503EE4FAB9BDFD72E8 /* Pods-HYLogEngine_Example-frameworks.sh */,
+				524D91594DE094D0B3FBCEAF0E51CE8A /* Pods-HYLogEngine_Example-resources.sh */,
+				912C3988C06080F5ECEF4FBAE1D8A9A4 /* Pods-HYLogEngine_Example-umbrella.h */,
+				02DB0C6664E28276ED916651C2004078 /* Pods-HYLogEngine_Example.debug.xcconfig */,
+				E99E8CCA553730CA457F8E35D738B7E2 /* Pods-HYLogEngine_Example.release.xcconfig */,
+			);
+			name = "Pods-HYLogEngine_Example";
+			path = "Target Support Files/Pods-HYLogEngine_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E29F3F89174C765A573D0DD63C56430 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A978CF97008E668B712983DB48D33EFB /* Pods-HYLogEngine_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5E81764766288EFE3B26C203E5AFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53ADAF2E208DAB13A98ED7E28484363 /* HYLogBaseModel.h in Headers */,
+				A442B32EF2AA23F94E0CF222C210C974 /* HYLogConfiger.h in Headers */,
+				337D4A4E69682EC213F3316107CEC8B3 /* HYLogEngine-umbrella.h in Headers */,
+				CC003A824A79C1CDE0DFE8164F439AA4 /* HYLogEngine.h in Headers */,
+				92F33B810AA1F8A080777428A3A32852 /* HYLogEngineHeader.h in Headers */,
+				3D16A9F97CB53E4491C16F6AE25D8D3A /* HYLogEventTracker.h in Headers */,
+				BECE31C7AAF6BDD5B47AAC40355C15C3 /* HYLogPool.h in Headers */,
+				880A6753E65CDCB684A36428BACB39C3 /* HYLogProtocol.h in Headers */,
+				3C69376BEA6E26A6EF7BEB391E86F928 /* HYQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8644AC9B2F82C0F31886B8F21EAE44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B4F8E5CE2A160DC74650F5B82B4B43 /* Pods-HYLogEngine_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B5BB666C8B3E564C60DF9864150DEBD /* Pods-HYLogEngine_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1606CBF0CE555FA7A142C83F01DB231 /* Build configuration list for PBXNativeTarget "Pods-HYLogEngine_Tests" */;
+			buildPhases = (
+				D5F25F278F47620572161AA3AD430BBA /* Sources */,
+				E37CF649D74C19D8E13158B7CF3D5A88 /* Frameworks */,
+				EC8644AC9B2F82C0F31886B8F21EAE44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E3044DF0B0EDF7FA40154A4A204D22 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYLogEngine_Tests";
+			productName = "Pods-HYLogEngine_Tests";
+			productReference = 6445FC9B041BF145AF4340E06A129BF2 /* Pods_HYLogEngine_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51A0FECE8D69A8C37FAED08856B9544F /* HYLogEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7E7CA6F0633AD3D6A1EA5B03E804114 /* Build configuration list for PBXNativeTarget "HYLogEngine" */;
+			buildPhases = (
+				4EB50693C8B3155332C42729B06A68BF /* Sources */,
+				DA0FFA4EC3669A66DEAC1F4031E95F53 /* Frameworks */,
+				1B671E452830B2EE99812BA7BECED52B /* Resources */,
+				CBB5E81764766288EFE3B26C203E5AFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47B62E94AF4CBBC49029F2534AF29DE /* PBXTargetDependency */,
+			);
+			name = HYLogEngine;
+			productName = HYLogEngine;
+			productReference = 958A094380FF4CF77B1AE913F4D23C2A /* HYLogEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDC2F91D20062C66DE8ECD21D8BA95AA /* Pods-HYLogEngine_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C04AE50E26296360DFA028853C3548 /* Build configuration list for PBXNativeTarget "Pods-HYLogEngine_Example" */;
+			buildPhases = (
+				100C8532D19EC99D0847667CFD82390A /* Sources */,
+				6B11F5F9E99A7CBAB1E3901DBE82A3B0 /* Frameworks */,
+				1E29F3F89174C765A573D0DD63C56430 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D2D726F2695F7C96FADFB630F5AEC65 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYLogEngine_Example";
+			productName = "Pods-HYLogEngine_Example";
+			productReference = A1EA3E40A6552DC34907980425EFCD64 /* Pods_HYLogEngine_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEEEC16DBF9863201D10D9A40202B2CA /* HYLogEngine-HYLogEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78636F7C30A10FFA2FD73E0DE53719D2 /* Build configuration list for PBXNativeTarget "HYLogEngine-HYLogEngine" */;
+			buildPhases = (
+				792136F7D739555CD432422B24D09813 /* Sources */,
+				001CD878B3024E75B22F86A88958583D /* Frameworks */,
+				64802C54F29F9F5935346A809E50E7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYLogEngine-HYLogEngine";
+			productName = "HYLogEngine-HYLogEngine";
+			productReference = 80E75BFF42DD43F665B342FE59833636 /* HYLogEngine.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A0FECE8D69A8C37FAED08856B9544F /* HYLogEngine */,
+				DEEEC16DBF9863201D10D9A40202B2CA /* HYLogEngine-HYLogEngine */,
+				BDC2F91D20062C66DE8ECD21D8BA95AA /* Pods-HYLogEngine_Example */,
+				3B5BB666C8B3E564C60DF9864150DEBD /* Pods-HYLogEngine_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B671E452830B2EE99812BA7BECED52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B17B079C0FF6C26E8238DE7B88E11375 /* HYLogEngine.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64802C54F29F9F5935346A809E50E7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100C8532D19EC99D0847667CFD82390A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1007D8B584F053809879B9C4368D7F /* Pods-HYLogEngine_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB50693C8B3155332C42729B06A68BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500C5EDCB6704AE9E4534DC09D58E4E5 /* HYLogBaseModel.m in Sources */,
+				9390D7A7318FDCB81C11FCBD75F9095B /* HYLogConfiger.m in Sources */,
+				47B082AE085A306900F06649CE300BE6 /* HYLogEngine-dummy.m in Sources */,
+				46241279A132636929AFE5C18A7EB4A5 /* HYLogEngine.m in Sources */,
+				3B23E12A528D8EFBA642F67442787244 /* HYLogEventTracker.m in Sources */,
+				5345B976618E30DB1FDD3F079E3B2436 /* HYLogPool.m in Sources */,
+				B9BE53E3C4A2105833D27E49908B18EF /* HYQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792136F7D739555CD432422B24D09813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F25F278F47620572161AA3AD430BBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7710F329F29D980034865341CF214390 /* Pods-HYLogEngine_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D2D726F2695F7C96FADFB630F5AEC65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYLogEngine;
+			target = 51A0FECE8D69A8C37FAED08856B9544F /* HYLogEngine */;
+			targetProxy = C53DCCCF55F802B22D412EA09C9C9374 /* PBXContainerItemProxy */;
+		};
+		A1E3044DF0B0EDF7FA40154A4A204D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYLogEngine;
+			target = 51A0FECE8D69A8C37FAED08856B9544F /* HYLogEngine */;
+			targetProxy = EB59F068491C1C17755360412FDAF7D4 /* PBXContainerItemProxy */;
+		};
+		A47B62E94AF4CBBC49029F2534AF29DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HYLogEngine-HYLogEngine";
+			target = DEEEC16DBF9863201D10D9A40202B2CA /* HYLogEngine-HYLogEngine */;
+			targetProxy = D8838FDF61AD82EEB6CA9E0AAA9E90B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0268CE412B10528F80118E183887E524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D9A7A0F86D8D84F3626CFA33DBFE61 /* Pods-HYLogEngine_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLogEngine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLogEngine_Tests/Pods-HYLogEngine_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HYLogEngine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0753547F57C287EB14BE21E3880435BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DB0C6664E28276ED916651C2004078 /* Pods-HYLogEngine_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLogEngine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLogEngine_Example/Pods-HYLogEngine_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HYLogEngine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		22FB15B58094A102B9AA546F203D4465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HYLogEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		31606A14B7C51ED6106BF6AC1D7C2B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HYLogEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		39C8AE53948A8ECF5E5A57AB0CA4CE18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYLogEngine/HYLogEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYLogEngine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYLogEngine/HYLogEngine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HYLogEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62A33B4387EE8221A669F41894FE5624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5069738FA235B44987B3437D757A8F04 /* HYLogEngine-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HYLogEngine/HYLogEngine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYLogEngine/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYLogEngine/HYLogEngine.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HYLogEngine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		868C189947C0B67829BB3B69F8B8A9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40193104E075B99827B3600B62D3F031 /* Pods-HYLogEngine_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLogEngine_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLogEngine_Tests/Pods-HYLogEngine_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HYLogEngine_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DDA8D4F6B9D6BCD49BAD97687DD83EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99E8CCA553730CA457F8E35D738B7E2 /* Pods-HYLogEngine_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HYLogEngine_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HYLogEngine_Example/Pods-HYLogEngine_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HYLogEngine_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78636F7C30A10FFA2FD73E0DE53719D2 /* Build configuration list for PBXNativeTarget "HYLogEngine-HYLogEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FB15B58094A102B9AA546F203D4465 /* Debug */,
+				31606A14B7C51ED6106BF6AC1D7C2B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C04AE50E26296360DFA028853C3548 /* Build configuration list for PBXNativeTarget "Pods-HYLogEngine_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0753547F57C287EB14BE21E3880435BF /* Debug */,
+				8DDA8D4F6B9D6BCD49BAD97687DD83EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1606CBF0CE555FA7A142C83F01DB231 /* Build configuration list for PBXNativeTarget "Pods-HYLogEngine_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0268CE412B10528F80118E183887E524 /* Debug */,
+				868C189947C0B67829BB3B69F8B8A9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7E7CA6F0633AD3D6A1EA5B03E804114 /* Build configuration list for PBXNativeTarget "HYLogEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62A33B4387EE8221A669F41894FE5624 /* Debug */,
+				39C8AE53948A8ECF5E5A57AB0CA4CE18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

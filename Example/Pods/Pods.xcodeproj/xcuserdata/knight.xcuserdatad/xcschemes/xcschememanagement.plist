@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>HYLogEngine-HYLogEngine.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HYLogEngine.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HYLogEngine_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-HYLogEngine_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3B5BB666C8B3E564C60DF9864150DEBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51A0FECE8D69A8C37FAED08856B9544F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDC2F91D20062C66DE8ECD21D8BA95AA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEEEC16DBF9863201D10D9A40202B2CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
