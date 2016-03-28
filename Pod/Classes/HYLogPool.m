@@ -34,7 +34,7 @@ NSInteger const kMAX_NUM = 5*kInitNum;
     return instance;
 }
 
-- (void)enQueue:(HYLogBaseModel *)aModel {
-    [super enQueue:aModel];
-}
+//- (void)enQueue:(HYLogBaseModel *)aModel {
+//    [super enQueue:aModel];
+//}
 @end

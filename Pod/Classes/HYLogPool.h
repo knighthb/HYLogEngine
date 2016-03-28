@@ -19,7 +19,7 @@ extern NSInteger const kInitNum;
  *
  *  @param aModel 入队的元素
  */
-- (void)enQueue:(HYLogBaseModel *) aModel ;
+//- (void)enQueue:(HYLogBaseModel *) aModel ;
 
 /**
  *  出队列
