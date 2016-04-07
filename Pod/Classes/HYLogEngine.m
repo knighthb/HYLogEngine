@@ -22,10 +22,6 @@ typedef NS_ENUM(NSInteger, HYUploadState) {
     EHYUploadSuccessed= 0,
     EHYUPloadFailed = 1
 };
-/**
- * 目前的做法：
- * 把日志放到buffer中，当buffer中满
- **/
 
 @interface HYLogEngine ()
 @property (nonatomic , weak) NSRunLoop * runloop;
@@ -58,7 +54,8 @@ static NSTimeInterval timePassed = 0;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveUnregisterLogEngineNotification:) name:kUnRegisterLogEngineNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveClearBufferNotification:) name:kClearBufferNotification object:nil];
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+    dispatch_queue_t queue = dispatch_queue_create("com.bj.58.logengine.processing", DISPATCH_QUEUE_SERIAL);
+    dispatch_async(queue, ^{
         weakself.runloop = [NSRunLoop currentRunLoop];
          _timer = [[NSTimer alloc] initWithFireDate:[NSDate dateWithTimeIntervalSinceNow:1] interval:timeInterval target:weakself selector:@selector(processOn) userInfo:nil repeats:YES];
         [weakself.runloop addTimer:_timer forMode:NSDefaultRunLoopMode];
@@ -88,9 +85,6 @@ static NSTimeInterval timePassed = 0;
 }
 
 - (BOOL)parseLogModel {
-    //NSLog(@"thread.. %@",        [NSThread currentThread]);
-
-    //NSLog(@"解析日志model");
     if (!_buffer) {
         _buffer = [[NSMutableArray alloc] init];
     }
@@ -166,7 +160,6 @@ static NSTimeInterval timePassed = 0;
      *  1.日志条数达到一定阈值
      *  2.到达上传的时间间隔
      *  3.当前网络环境是wifi的情况（暂时未实现）
-     *  考虑用策略模式
      */
     if ( BUFFER_SIZE*writeTime >= LOG_NUM
         || timePassed >= MAX_TIME_SECOND )
